@@ -40,5 +40,15 @@ on_event_start python /home/pi/ifttt.py
 
 >ifttt.py is bundled with repository.
 
+Download ifttt app and register , make a webhook and put the key in above
+file, this will send you alerts on visitor movements.
+
+The below command will upload to google cloud storage bucket, all the
+pics captured by motion library will be sent to gcp, checkout the bucker.jar
+bundled with this repo, change the project id and path of your json file in the App.java and recompile as jar.
 
 on_picture_save /home/pi/uploadtocloud.sh %f
+
+**Android App**
+
+The android app will be simple one page layout where, top 
