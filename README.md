@@ -11,6 +11,8 @@ This project will make a Home eye service which will do the following.
  6. Will give you a snapshot view also on the above app
  7. Will work even if you don't have static ip on your router.
  
+![Home Eye Architecture](https://github.com/bhishekarora/home_eye/blob/master/homeeye.png)
+
 ## Prerequisites 
 A raspberry pi 2/3 needs wifi dongle support or inbuilt one.
 Static ip configured and has internet access.
